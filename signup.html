@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Create account</title>
+
+</head>
+
+<body>
+
+    <section class="container-fluid">
+
+        <h1 class="heading">JavaScript Sign Up Form</h1>
+
+        <div class="container cont-box">
+
+            <form>
+                <h3 class="h3">Create New Account</h3>
+                <label for="username" class="label">Username</label>
+                <input type="text" id="username" class="form-control input" required>
+                <label for="email" class="label">E-mail</label>
+                <input type="email" id="email" class="form-control input" required>
+                <label for="showPass" class="label">Password</label>
+                <input type="password" id="showPass" class="form-control showPass input" required>
+                <a class="anchor" href="javascript:void(0)"><i onclick="showPassword(this)" class="fas fa-eye show"></i>Show password</a>
+
+                <div class="account">
+
+                    <a class="create" href="./index.html">Sign in instead</a>
+
+                    <button type="submit" class="btn btn-primary myBtn">Create</button>
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
+</body>
+<script src="./Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+<script src="./Bootstrap/js/popper.min.js"></script>
+<script src="./Bootstrap/js/bootstrap.min.js"></script>
+<script src="./app.js"></script>
+
+</html>
